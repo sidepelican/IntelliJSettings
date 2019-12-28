@@ -1,9 +1,0 @@
-<application>
-  <component name="UISettings">
-    <option name="ACTIVATE_RIGHT_EDITOR_ON_CLOSE" value="true" />
-    <option name="FONT_SCALE" value="1.0" />
-    <option name="HIDE_TOOL_STRIPES" value="false" />
-    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
-    <option name="SHOW_TABS_TOOLTIPS" value="false" />
-  </component>
-</application>
