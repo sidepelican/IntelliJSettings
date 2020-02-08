@@ -4,10 +4,18 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="o" />
+  </action>
   <action id="DirDiffMenu.SynchronizeDiff" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="ctrl meta j" />
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="r" />
   </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
