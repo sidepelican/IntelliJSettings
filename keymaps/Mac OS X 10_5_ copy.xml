@@ -64,6 +64,9 @@
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="Refresh" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
