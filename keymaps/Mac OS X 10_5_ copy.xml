@@ -14,6 +14,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="DecrementWindowHeight" />
   <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff" />
   <action id="EditSource">
@@ -26,6 +27,8 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockStart" />
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -35,12 +38,16 @@
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
   <action id="EditorTextEnd">
-    <keyboard-shortcut first-keystroke="meta end" />
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
   <action id="EditorTextStart">
-    <keyboard-shortcut first-keystroke="meta home" />
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
@@ -54,8 +61,17 @@
   </action>
   <action id="Images.Thumbnails.EnterAction" />
   <action id="ImplementMethods" />
+  <action id="IncrementWindowHeight" />
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
@@ -70,6 +86,8 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
