@@ -460,6 +460,12 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GROOVY_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="e784a2" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b24fcb" />
@@ -508,6 +514,11 @@
     <option name="Instance property reference ID">
       <value>
         <option name="FOREGROUND" value="9876aa" />
+      </value>
+    </option>
+    <option name="KOTLIN_ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="e796e8" />
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
