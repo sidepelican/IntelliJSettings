@@ -521,6 +521,21 @@
         <option name="FOREGROUND" value="e796e8" />
       </value>
     </option>
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value>
+        <option name="BACKGROUND" value="40503d" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CAST_VALUE">
+      <value>
+        <option name="BACKGROUND" value="40503d" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value>
+        <option name="BACKGROUND" value="40503d" />
+      </value>
+    </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value />
     </option>
