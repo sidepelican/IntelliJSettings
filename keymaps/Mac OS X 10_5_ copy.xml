@@ -18,8 +18,7 @@
   <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff" />
   <action id="EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
-    <keyboard-shortcut first-keystroke="ctrl meta j" />
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
@@ -59,9 +58,11 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
+  <action id="GotoBookmark5" />
   <action id="Images.Thumbnails.EnterAction" />
   <action id="ImplementMethods" />
   <action id="IncrementWindowHeight" />
+  <action id="InsertLiveTemplate" />
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
   <action id="MoveLineDown">
@@ -95,7 +96,7 @@
   </action>
   <action id="SendEOF" />
   <action id="ShowNavBar">
-    <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
   <action id="Vcs.Log.Refresh" />
   <action id="XDebugger.CopyWatch" />
