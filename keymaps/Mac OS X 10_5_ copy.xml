@@ -84,12 +84,18 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="meta d" />
