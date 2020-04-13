@@ -59,6 +59,11 @@
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
   <action id="GotoBookmark5" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="ctrl meta j" />
+  </action>
   <action id="Images.Thumbnails.EnterAction" />
   <action id="ImplementMethods" />
   <action id="IncrementWindowHeight" />
