@@ -89,9 +89,6 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
-  <action id="RenameFile">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
