@@ -1,8 +1,7 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
+      <mapping ext="klib" type="ARCHIVE" />
     </extensionMap>
   </component>
 </application>
