@@ -1,7 +1,8 @@
 <application>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="13" />
-    <option name="FONT_FAMILY" value=".SF NS Mono" />
+    <option name="FONT_FAMILY" value="Droid Sans Mono" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Regular" />
     <option name="LINE_SPACING" value="1.01" />
   </component>
   <component name="EditorSettings">
