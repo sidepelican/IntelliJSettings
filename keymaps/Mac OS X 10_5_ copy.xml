@@ -6,10 +6,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
   <action id="ChangesView.Diff" />
-  <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl space" />
-    <keyboard-shortcut first-keystroke="escape" />
-  </action>
   <action id="CompareTwoFiles" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta r" />
