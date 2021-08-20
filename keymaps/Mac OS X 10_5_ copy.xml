@@ -6,10 +6,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
   <action id="ChangesView.Diff" />
-  <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl space" />
-    <keyboard-shortcut first-keystroke="escape" />
-  </action>
   <action id="CompareTwoFiles" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta r" />
@@ -58,6 +54,7 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
+  <action id="GotoBookmark0" />
   <action id="GotoBookmark5" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
@@ -94,6 +91,9 @@
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="RunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl 0" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift meta j" />
