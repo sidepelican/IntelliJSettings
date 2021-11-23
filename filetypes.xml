@@ -4,9 +4,11 @@
       <mapping pattern="BrandMenuList" type="AUTO_DETECTED" />
       <mapping pattern="UserContext" type="TypeScript" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="proto" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="space.kts" type="Kotlin" />
     </extensionMap>
   </component>
 </application>
