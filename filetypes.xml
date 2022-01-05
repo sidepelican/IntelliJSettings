@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="BrandMenuList" type="AUTO_DETECTED" />
       <mapping ext="mp4" type="AUTO_DETECTED" />
+      <mapping pattern=".dockerignore" type="IgnoreLang file" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern="UserContext" type="TypeScript" />
