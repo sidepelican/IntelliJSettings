@@ -1,5 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
+    <file url="file://$USER_HOME$/projects/golfboy-cloud/next-golfboy/.env.production" value="AUTO_DETECTED" />
     <file url="file://$USER_HOME$/projects/kobelco-matching/terraform/lib/app/resource_group.tf" value="Terraform" />
   </component>
 </application>
