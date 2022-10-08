@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'flutter_travel_exchange'" />
-    <option name="defaultScopeName" value="Project 'flutter_travel_exchange'" />
-    <option name="SEARCH_SCOPE" value="Project 'flutter_travel_exchange'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
