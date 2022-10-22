@@ -9,8 +9,8 @@
           </Key>
         </key>
         <name value="Google Pixel 3a" />
-        <target value="Android API 32" />
-        <api value="32" />
+        <target value="Android 12L" />
+        <api value="androidversion:32:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
