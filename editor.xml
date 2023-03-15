@@ -1,8 +1,10 @@
 <application>
-  <component name="DefaultFont">
-    <option name="FONT_FAMILY" value="Droid Sans Mono" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
-    <option name="LINE_SPACING" value="1.01" />
+  <component name="CodeVisionSettings">
+    <option name="disabledCodeVisionProviderIds">
+      <set>
+        <option value="vcs.code.vision" />
+      </set>
+    </option>
   </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
@@ -14,6 +16,7 @@
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="ARE_GUTTER_ICONS_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="SHOW_BREADCRUMBS" value="false" />
   </component>

@@ -1,0 +1,45 @@
+<application>
+  <component name="LineMarkerSettings">
+    <option name="providers">
+      <map>
+        <entry key="RenderedDoc" value="true" />
+        <entry key="com.android.tools.idea.compose.annotator.PreviewPickerLineMarkerProvider" value="true" />
+        <entry key="com.android.tools.idea.compose.annotator.SpringPickerLineMarkerProvider" value="true" />
+        <entry key="com.google.services.firebase.insights.inspection.CrashlyticsExternalAnnotator$LineMarkerProvider" value="true" />
+        <entry key="com.intellij.codeInsight.ExternalAnnotationLineMarkerProvider" value="true" />
+        <entry key="com.intellij.codeInsight.InferredContractAnnotationsLineMarkerProvider" value="false" />
+        <entry key="com.intellij.codeInsight.InferredNullabilityAnnotationsLineMarkerProvider" value="true" />
+        <entry key="com.intellij.codeInsight.daemon.impl.IconLineMarkerProvider" value="true" />
+        <entry key="com.intellij.codeInsight.daemon.impl.RecursiveCallLineMarkerProvider" value="true" />
+        <entry key="com.intellij.execution.lineMarker.RunLineMarkerProvider" value="true" />
+        <entry key="com.intellij.ui.ColorLineMarkerProvider" value="true" />
+        <entry key="devkit.beforeAfter" value="true" />
+        <entry key="devkit.description" value="true" />
+        <entry key="disable.dagger" value="true" />
+        <entry key="java.implemented" value="true" />
+        <entry key="java.implementing" value="true" />
+        <entry key="java.lambda" value="false" />
+        <entry key="java.overridden" value="true" />
+        <entry key="java.overriding" value="true" />
+        <entry key="java.service" value="true" />
+        <entry key="java.sibling.inherited" value="true" />
+        <entry key="kotlin.actual" value="true" />
+        <entry key="kotlin.dsl" value="true" />
+        <entry key="kotlin.expect" value="true" />
+        <entry key="kotlin.implemented" value="true" />
+        <entry key="kotlin.implementing" value="true" />
+        <entry key="kotlin.overridden" value="true" />
+        <entry key="kotlin.overriding" value="true" />
+        <entry key="org.editorconfig.configmanagement.editor.EditorConfigPreviewMarkerProvider" value="true" />
+        <entry key="org.intellij.plugins.markdown.editor.images.ConfigureHtmlImageLineMarkerProvider" value="true" />
+        <entry key="org.intellij.plugins.markdown.editor.images.ConfigureMarkdownImageLineMarkerProvider" value="true" />
+        <entry key="org.intellij.plugins.markdown.editor.images.ConfigureTextHtmlImageLineMarkerProvider" value="true" />
+        <entry key="org.intellij.plugins.markdown.extensions.common.plantuml.PlantUMLCodeFenceDownloadLineMarkerProvider" value="true" />
+        <entry key="org.intellij.plugins.markdown.extensions.jcef.mermaid.MermaidCodeFenceDownloadLineMarkerProvider" value="true" />
+        <entry key="org.jetbrains.idea.devkit.navigation.ExtensionDeclarationRelatedItemLineMarkerProvider" value="true" />
+        <entry key="org.jetbrains.idea.devkit.references.DevKitRelatedPropertiesProvider" value="true" />
+        <entry key="org.jetbrains.idea.devkit.testAssistant.TestDataLineMarkerProvider" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

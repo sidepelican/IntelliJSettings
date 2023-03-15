@@ -75,6 +75,11 @@
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
+    <filter>
+      <option name="PATTERN" value="androidx.compose.runtime.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
   </component>
   <component name="XDebuggerSettings">
     <data-views />
@@ -82,8 +87,8 @@
     <debuggers>
       <debugger id="ObjectiveC">
         <configuration>
-          <option name="VALUES_FILTER_ENABLED" value="false" />
           <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
+          <option name="VALUES_FILTER_ENABLED" value="false" />
         </configuration>
       </debugger>
     </debuggers>
