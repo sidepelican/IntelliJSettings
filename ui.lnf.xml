@@ -1,0 +1,13 @@
+<application>
+  <component name="DependencyUISettings">
+    <option name="SCOPE_TYPE" value="file" />
+  </component>
+  <component name="UISettings">
+    <option name="ACTIVATE_RIGHT_EDITOR_ON_CLOSE" value="true" />
+    <option name="EDITOR_AA_TYPE" value="Greyscale" />
+    <option name="EDITOR_TAB_LIMIT" value="8" />
+    <option name="IDE_AA_TYPE" value="Greyscale" />
+    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="SHOW_TABS_TOOLTIPS" value="false" />
+  </component>
+</application>

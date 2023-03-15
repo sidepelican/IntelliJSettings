@@ -1,0 +1,17 @@
+<application>
+  <component name="deviceManagerPhysicalTab">
+    <physicalDevices>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="953AY0TW0Z" />
+          </Key>
+        </key>
+        <name value="Google Pixel 3a" />
+        <target value="Android API 32" />
+        <api value="32" />
+      </PhysicalDevice>
+    </physicalDevices>
+  </component>
+</application>
