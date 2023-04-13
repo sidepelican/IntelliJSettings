@@ -1,4 +1,7 @@
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
+  </component>
   <component name="CodeVisionSettings">
     <option name="disabledCodeVisionProviderIds">
       <set>
