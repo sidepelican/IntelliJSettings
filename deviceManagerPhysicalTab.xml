@@ -4,6 +4,17 @@
       <PhysicalDevice>
         <key>
           <Key>
+            <type value="DOMAIN_NAME" />
+            <value value="adb-2B021JEGR08186-yW4gsT._adb-tls-connect._tcp." />
+          </Key>
+        </key>
+        <name value="Google Pixel 6a" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
             <type value="SERIAL_NUMBER" />
             <value value="953AY0TW0Z" />
           </Key>
@@ -11,17 +22,6 @@
         <name value="Google Pixel 3a" />
         <target value="Android API 32" />
         <api value="androidversion:32:null:null:true" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="2B021JEGR08186" />
-          </Key>
-        </key>
-        <name value="Google Pixel 6a" />
-        <target value="Android 13.0" />
-        <api value="androidversion:33:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>

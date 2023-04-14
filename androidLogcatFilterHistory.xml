@@ -1,9 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine Firebase" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine Firebase" />
         <option value="package:mine " />
-        <option value="package:mine PushNotificationService" />
+        <option value="package:mine DeviceUtil" />
+        <option value="DeviceUtil" />
       </list>
     </option>
   </component>
