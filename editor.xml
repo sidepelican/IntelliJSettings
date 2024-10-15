@@ -3,6 +3,7 @@
     <option name="COLLAPSE_IMPORTS" value="false" />
   </component>
   <component name="CodeVisionSettings">
+    <option name="defaultPosition" value="Right" />
     <option name="disabledCodeVisionProviderIds">
       <set>
         <option value="vcs.code.vision" />
