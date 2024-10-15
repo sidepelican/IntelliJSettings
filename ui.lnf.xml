@@ -7,5 +7,8 @@
     <option name="EDITOR_TAB_LIMIT" value="8" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="SHOW_TABS_TOOLTIPS" value="false" />
+    <option name="SHOW_TOOL_WINDOW_NAMES" value="true" />
+    <option name="TOOL_WINDOW_LEFT_SIDE_CUSTOM_WIDTH" value="59" />
+    <option name="TOOL_WINDOW_RIGHT_SIDE_CUSTOM_WIDTH" value="59" />
   </component>
 </application>
