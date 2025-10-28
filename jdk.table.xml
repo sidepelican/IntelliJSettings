@@ -3,7 +3,7 @@
     <jdk version="2">
       <name value="17" />
       <type value="JavaSDK" />
-      <version value="JetBrains Runtime 21.0.3 - aarch64" />
+      <version value="JetBrains Runtime 21.0.8 - aarch64" />
       <homePath value="$APPLICATION_HOME_DIR$/jbr/Contents/Home" />
       <roots>
         <annotationsPath>
@@ -276,7 +276,7 @@
     <jdk version="2">
       <name value="jbr-21" />
       <type value="JavaSDK" />
-      <version value="JetBrains Runtime 21.0.3 - aarch64" />
+      <version value="JetBrains Runtime 21.0.8 - aarch64" />
       <homePath value="$APPLICATION_HOME_DIR$/jbr/Contents/Home" />
       <roots>
         <annotationsPath>
@@ -545,6 +545,519 @@
         </sourcePath>
       </roots>
       <additional sdk="android-35" />
+    </jdk>
+    <jdk version="2">
+      <name value="homebrew-25" />
+      <type value="JavaSDK" />
+      <version value="Homebrew OpenJDK 25.0.1 - aarch64" />
+      <homePath value="/opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.base" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.datatransfer" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.desktop" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.instrument" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.logging" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.management.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.naming" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.net.http" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.prefs" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.scripting" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.se" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.security.jgss" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.security.sasl" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.smartcardio" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.sql" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.sql.rowset" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.transaction.xa" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.xml" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.xml.crypto" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.accessibility" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.attach" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.charsets" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.dynalink" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.editpad" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.httpserver" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.incubator.vector" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.le" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.md" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jartool" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.javadoc" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jcmd" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jconsole" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jdeps" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jdi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jfr" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jlink" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jpackage" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jshell" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jsobject" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jstatd" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.localedata" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.management.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.net" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.nio.mapmode" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.sctp" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.security.auth" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.base" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jpackage" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.md" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.nio.mapmode" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.incubator.vector" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler.management" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+    </jdk>
+    <jdk version="2">
+      <name value="homebrew-25 (2)" />
+      <type value="JavaSDK" />
+      <version value="Homebrew OpenJDK 25.0.1 - aarch64" />
+      <homePath value="/opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.base" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.datatransfer" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.desktop" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.instrument" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.logging" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.management.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.naming" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.net.http" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.prefs" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.scripting" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.se" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.security.jgss" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.security.sasl" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.smartcardio" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.sql" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.sql.rowset" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.transaction.xa" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.xml" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/java.xml.crypto" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.accessibility" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.attach" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.charsets" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.dynalink" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.editpad" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.httpserver" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.incubator.vector" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.internal.le" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.internal.md" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jartool" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.javadoc" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jcmd" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jconsole" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jdeps" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jdi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jfr" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jlink" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jpackage" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jshell" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jsobject" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.jstatd" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.localedata" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.management.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.net" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.nio.mapmode" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.sctp" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.security.auth" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.base" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jpackage" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.md" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.nio.mapmode" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.incubator.vector" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar:///opt/homebrew/opt/openjdk@20/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler.management" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 36.0, extension level 17 Platform" />
+      <type value="Android SDK" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-36/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-36/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Android/sdk/platforms/android-36/data/res" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional sdk="android-36" />
+    </jdk>
+    <jdk version="2">
+      <name value="homebrew-25 (3)" />
+      <type value="JavaSDK" />
+      <version value="Homebrew OpenJDK 25.0.1 - aarch64" />
+      <homePath value="/opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.base" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.datatransfer" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.desktop" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.instrument" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.logging" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.management.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.naming" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.net.http" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.prefs" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.scripting" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.se" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.security.jgss" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.security.sasl" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.smartcardio" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.sql" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.sql.rowset" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.transaction.xa" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.xml" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/java.xml.crypto" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.accessibility" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.attach" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.charsets" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.dynalink" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.editpad" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.httpserver" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.incubator.vector" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.le" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.md" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jartool" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.javadoc" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jcmd" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jconsole" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jdeps" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jdi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jfr" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jlink" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jpackage" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jshell" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jsobject" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.jstatd" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.localedata" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.management" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.management.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.net" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.nio.mapmode" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.sctp" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.security.auth" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.base" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jpackage" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.md" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.nio.mapmode" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.incubator.vector" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar:///opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler.management" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
     </jdk>
   </component>
 </application>
