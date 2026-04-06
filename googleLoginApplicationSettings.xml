@@ -1,0 +1,17 @@
+<application>
+  <component name="GoogleLoginApplicationSettings">
+    <option name="activeUser" value="okamura@qoncept.co.jp" />
+    <option name="userEmail2FeaturesStore">
+      <map>
+        <entry key="okamura@qoncept.co.jp">
+          <value>
+            <set>
+              <option value="GiAS" />
+              <option value="User Info" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
