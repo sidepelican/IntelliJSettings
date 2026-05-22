@@ -10,5 +10,6 @@
     <entry key="ide.mac.transparentTitleBarAppearance" value="true" source="SYSTEM" />
     <entry key="moved.to.new.ui" value="true" source="SYSTEM" />
     <entry key="ide.experimental.ui" value="true" source="SYSTEM" />
+    <entry key="switched.from.classic.to.islands" value="false" source="SYSTEM" />
   </component>
 </application>
