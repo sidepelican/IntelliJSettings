@@ -1251,7 +1251,7 @@
     <jdk version="2">
       <name value="Kotlin SDK" />
       <type value="KotlinSDK" />
-      <homePath value="" />
+      <homePath value="/" />
       <roots>
         <annotationsPath>
           <root type="composite" />
