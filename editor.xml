@@ -17,7 +17,7 @@
         <entry key="TypeScript" value="true" />
       </map>
     </option>
-    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="USE_SOFT_WRAPS" value="" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
