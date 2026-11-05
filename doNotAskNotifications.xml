@@ -1,0 +1,9 @@
+<application>
+  <component name="DoNotAskAppManager">
+    <option name="idToDisplayName">
+      <map>
+        <entry key="Feature Survey" value="Feature Survey" />
+      </map>
+    </option>
+  </component>
+</application>
