@@ -1,5 +1,7 @@
 <application>
   <component name="KotlinFirRefactoringSettings">
+    <option name="MOVE_MPP_DECLARATIONS" value="false" />
     <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_SEARCH_REFERENCES" value="false" />
   </component>
 </application>
